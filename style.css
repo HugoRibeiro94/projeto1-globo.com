@@ -432,7 +432,9 @@
 
     .container2,.container1{
       width: 100%;
+      height: auto;
       flex-direction: column;
+      justify-content: space-around;
       margin: 10px;
     }
     
@@ -496,6 +498,7 @@
       height: auto;
       display: flex;
       flex-wrap: wrap;
+      margin-bottom: 10px;
     }
 
     .caixa{
